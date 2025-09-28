@@ -1,0 +1,47 @@
+.contents {
+  display: flex;
+}
+.txt {
+  width: 70%;
+}
+.txt h3,
+.introduction h3 {
+  border-bottom: 1px solid #455b86;
+}
+.contents img {
+  margin-left: 40px;
+  width: auto;
+  height: 200px;
+}
+a {
+  color: #e97142;
+}
+
+@media screen and (max-width: 670px) {
+  .contents {
+    display: block;
+  }
+  .txt {
+    width: 100%;
+  }
+  .contents img {
+    transform: translate(-50%, 0);
+    height: 130px;
+    margin-left: 50%;
+  }
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2列 */
+  gap: 10px; /* 画像の間隔 */
+  max-width: 600px;
+  margin: auto;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}

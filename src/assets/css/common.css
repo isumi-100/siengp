@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* フォントサイズや表示幅などの管理を一括でする用のcss */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=open_in_new');
+html {
+  font-size: 1.1vw;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Open Sans";
+  margin: 0;
+  background-image: url(/idea2.png);
+  background-repeat: no-repeat;
+  /* background-position-x: -3%; */
+  background-position-y: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+p,
+li {
+  font-size: 1rem;
+  color: #181818;
+}
+a {
+  font-size: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.5s;
+  z-index: 5100;
+  position: relative;
+}
+.small {
+  font-size: 0.8rem;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #455b86;
+}
+h5 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #455b86;
+}
+.header_space {
+  height: 100px;
+}
+.main {
+  width: 60%;
+  margin-left: 20%;
+  animation-name: fade;
+  animation-duration: 2s;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+@keyframes fade {
+  /* fadein */
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1072px) {
+  html {
+    font-size: 16px;
+  }
+  .main {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slides {
+  display: none;
+  width: 100%;
+}
+
+.fade {
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slides {
+  display: none;
+  width: 100%;
+}
+
+.fade {
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.open_in_new_icon {
+  transform: translate(0, 25%);
+}
