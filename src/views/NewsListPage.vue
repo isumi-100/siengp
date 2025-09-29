@@ -19,10 +19,10 @@ import { newsItems } from '../data/news.js';
         <br />
         <span v-html="item.content"></span>
       </p>
-      <router-link v-if="item.link && !item.isExternal" :to="item.link" class="more_btn">
+      <router-link v-if="item.link && !item.isExternal && !item.link.endsWith('.pdf')" :to="item.link" class="more_btn">
         {{ item.linkText }}
       </router-link>
-      <a v-if="item.link && item.isExternal" :href="item.link" class="more_btn" target="_blank" rel="noopener noreferrer">
+      <a v-if="item.link && (item.isExternal || item.link.endsWith('.pdf'))" :href="item.link" class="more_btn" target="_blank" rel="noopener noreferrer">
         {{ item.linkText }}
       </a>
     </div>

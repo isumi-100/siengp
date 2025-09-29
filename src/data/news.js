@@ -1,4 +1,17 @@
+import opencampus2025pdf from '../assets/files/news/opencampus_2025.pdf';
+import soudankai2025poster from '../assets/files/news/r7-9-peer-soudankai-poster.pdf';
+import soudankai2025shift from '../assets/files/news/r7-9-peer-soudankai-shift.pdf';
+
 export const newsItems = [
+  {
+   date: '2025/9/29',
+   category: 'ピアサポーター',
+   title: '「秋の大学生活なんでも相談会」開催のお知らせ',
+   content:  `履修、単位数や成績、系所属、大学生活のこと、なんでも相談に応じます。先輩に聞いてみたいこと等ありましたら、どんなことでも遠慮なく聞きにいらしてください。<br><b>相談会のシフトは<a href="${soudankai2025shift}" target="_blank" rel="noopener noreferrer">こちら</a>からご確認ください。</b><br>相談会ポスターは<a href="${soudankai2025poster}" target="_blank" rel="noopener noreferrer">こちら</a>`,
+   link: 'https://www.isct.ac.jp/ja/news/vxjr3pcs29wt',
+   linkText: '詳しく見る >',
+   isExternal: true,
+  },
   {
     date: '2025/8/21',
     category: '電子掲示板システム',
@@ -10,9 +23,9 @@ export const newsItems = [
     category: 'ピアサポーター',
     title: 'オープンキャンパスにてキャンパスライフ相談会を開催',
     content: 'ピアサポーターが、オープンキャンパスにて、受験生と保護者を対象とする「キャンパスライフ相談会」を開催しました。',
-    link: '/assets/files/news/opencampus_2025.pdf',
+    link: opencampus2025pdf,
     linkText: '開催報告を見る >',
-    isExternal: true,
+    isExternal: false, // 内部アセットなのでfalseに変更
   },
   {
     date: '2025/7/16',
@@ -21,6 +34,7 @@ export const newsItems = [
     content: '「ぐるっと！！ぴあノート」は、大岡山キャンパス、すずかけ台キャンパス、湯島キャンパスの3つのキャンパスをめぐるつぶやき帳です。このノートは本学の学生及び教職員の方ならどなたでもご自由にご記入いただけます。皆様の素敵な書き込みをお待ちしています！',
     link: '/news/PeerNote20250716',
     linkText: '詳しく見る >',
+    isExternal: false,
   },
   {
     date: '2025/7/9',
