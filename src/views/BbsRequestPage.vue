@@ -16,7 +16,6 @@ import GoodSlide from '../assets/images/bbs_request/good_slide.PNG';
         <li>配信希望の際は、大岡山学生支援センター未来人材育成支援室（学生活動支援）まで配信ファイルをお送りください。
           <ul>
             <li>Email : ssc-bss [at] ssc.isct.ac.jp</li>
-            <li>Email : dkeiji [at] jim.titech.ac.jp</li>
           </ul>
           （メール送信の際には [at] を小文字の@に変更して下さい。）
         </li>

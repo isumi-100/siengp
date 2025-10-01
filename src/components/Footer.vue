@@ -8,7 +8,7 @@
       <br /><br />
       TEL: 03-5734-7629
       <br />E-mail：st-initiativesupport [at] ssc.isct.ac.jp
-      <br />E-mail：siengp [at] jim.titech.ac.jp <br />
+      <br />
       <span class="small">
         ※メール送信の際には [at] を小文字の@に変更して下さい。
       </span>
