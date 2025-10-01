@@ -75,7 +75,7 @@ header {
   top: 0;
   background-color: #fff;
   border-bottom: 2px solid #455b86;
-  margin: 0;
+  margin: 10;
   z-index: 5000;
   overflow: hidden;
   display: flex; /* for align-items */
