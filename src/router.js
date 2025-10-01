@@ -17,7 +17,7 @@ import Vg20250602 from './views/news/Vg20250602.vue';
 import Vg20250702 from './views/news/Vg20250702.vue';
 
 const routes = [
-    { path: '/', component: TopPage },
+    { path: '/', component: TopPage, alias: '/index.html' },
   { path: '/bbs', component: BbsPage },
   { path: '/bbs/request', component: BbsRequestPage },
   { path: '/studentsurvey', component: StudentSurveyPage },
