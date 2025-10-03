@@ -54,7 +54,7 @@ onUnmounted(() => {
 .auto-slideshow {
   width: 50vw;
   height: 500px;
-  margin: 30px auto 20px;
+  margin: 20px auto 20px;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -64,6 +64,7 @@ onUnmounted(() => {
 .slideshow-inner {
   width: 100%;
   height: 93%;
+  top: 10px;
   position: relative;
 }
 .slide-container {
