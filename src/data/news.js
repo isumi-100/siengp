@@ -4,6 +4,15 @@ import soudankai2025shift from '../assets/files/news/r7-9-peer-soudankai-shift.p
 
 export const newsItems = [
   {
+    date: '2025/10/03',
+    category:'VG',
+    title: '非常食ワークショップを開催します【参加者募集】',
+    content: '【参加者募集】<b>10/17(金)17:30~</b>、非常食ワークショップを開催します。 <br/>防災について知りたい方、一人暮らしをしていて災害時への不安がある方、非常食の味に興味がある方、様々な方のご参加をお待ちしています！',
+    link: '/news/vg-20251003',
+    linkText: '詳しく見る >',
+    isExternal: false,
+  },
+  {
    date: '2025/9/29',
    category: 'ピアサポーター',
    title: '「秋の大学生活なんでも相談会」開催のお知らせ',

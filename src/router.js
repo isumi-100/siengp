@@ -15,6 +15,7 @@ import Ooo20250602 from './views/news/Ooo20250602.vue';
 import StuSurv20250609 from './views/news/StuSurv20250609.vue';
 import Vg20250602 from './views/news/Vg20250602.vue';
 import Vg20250702 from './views/news/Vg20250702.vue';
+import Vg20251003 from './views/news/Vg20251003.vue';
 
 const routes = [
     { path: '/', component: TopPage, alias: '/index.html' },
@@ -32,6 +33,7 @@ const routes = [
   { path: '/news/ooo-20250602', component: Ooo20250602 },
   { path: '/news/stu-surv-20250609', component: StuSurv20250609 },
   { path: '/news/vg-20250602', component: Vg20250602 },
+  { path: '/news/vg-20251003', component: Vg20251003 },
   { path: '/member', component: MemberPage },
 ];
 
