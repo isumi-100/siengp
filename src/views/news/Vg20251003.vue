@@ -1,16 +1,12 @@
 <script setup>
 import ActivityPageLayout from '../../components/ActivityPageLayout.vue';
-// import SlideShow from '../../components/SlideShow.vue';
+import SlideShow from '../../components/SlideShow.vue';
 
-// import slide1 from '../../assets/images/news/20250702_vg/image1.jpg';
-// import slide2 from '../../assets/images/news/20250702_vg/image2.jpg';
-// import slide3 from '../../assets/images/news/20250702_vg/image3.jpg';
+import slide1 from '../../assets/images/news/20251003_vg/hijoushoku.jpg';
 
-// const slides = [
-//   { imgSrc: slide1, altText: '物産展の様子1', caption: '物産展の様子1' },
-//   { imgSrc: slide2, altText: '物産展の様子2', caption: '物産展の様子2' },
-//   { imgSrc: slide3, altText: '物産展の様子3', caption: '物産展の様子3' },
-// ];
+const slides = [
+  { imgSrc: slide1, altText: '非常食ワークショップポスター', caption: '' },
+];
 
 const pageData = {
   title: '10/17(金)17:30~　非常食ワークショップ【参加者募集】',
@@ -20,9 +16,9 @@ const pageData = {
 
 <template>
   <ActivityPageLayout :title="pageData.title" :description="pageData.description">
-    <!-- <template #slideshow>
+    <template #slideshow>
       <SlideShow :slides="slides" />
-    </template> -->
+    </template>
     <template #details>
       <p>
         　10/17(金)に開催される「非常食ワークショップ」のお知らせです。
