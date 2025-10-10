@@ -29,9 +29,9 @@ const pageData = {
           <br>　ワークショップでは、非常食を揃えるにあたってベースとなる考え方を紹介しつつ、色々な非常食の食べ比べを行います。試食できる非常食は、ご飯・パン・ハンバーグなど色々な種類を用意しています。
           <br>　防災について知りたい方、一人暮らしをしていて災害時への不安がある方、非常食の味に興味がある方、様々な方のご参加をお待ちしています！
       </p>
-      <p><b>参加登録は<a href="https://forms.gle/WFX1GVh7xKBHKBHX6">こちら<span class="material-symbols-outlined open_in_new_icon">
+      <p><b style="text-decoration: line-through;">参加登録は<a href="https://forms.gle/WFX1GVh7xKBHKBHX6">こちら<span class="material-symbols-outlined open_in_new_icon">
 open_in_new
-</span></a>から</b><span style="color: red;"> 締め切りました</span></p>
+</span></a>から</b><span style="color: red;"> 申込は締め切りました</span></p>
       <h3>〈開催概要〉</h3>
       <p>日時：10/17(金) 17:30-19:00<br/>
         場所：大岡山キャンパス Taki Plaza 地下2階

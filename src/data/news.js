@@ -7,7 +7,7 @@ export const newsItems = [
     date: '2025/10/03',
     category:'VG',
     title: '非常食ワークショップを開催します【参加者募集】',
-    content: '【参加者募集】<b>10/17(金)17:30~</b>、非常食ワークショップを開催します。 <br/>防災について知りたい方、一人暮らしをしていて災害時への不安がある方、非常食の味に興味がある方、様々な方のご参加をお待ちしています！<br><span style="color: red">申し込みは締め切りました。</span>',
+    content: '【参加者募集】<b>10/17(金)17:30~</b>、非常食ワークショップを開催します。 <br/><b style="text-decoration: line-through;">防災について知りたい方、一人暮らしをしていて災害時への不安がある方、非常食の味に興味がある方、様々な方のご参加をお待ちしています！</b><span style="color: red"> 申し込みは締め切りました</span>',
     link: '/news/vg-20251003',
     linkText: '詳しく見る >',
     isExternal: false,
