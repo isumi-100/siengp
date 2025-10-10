@@ -31,7 +31,7 @@ const pageData = {
       </p>
       <p><b>参加登録は<a href="https://forms.gle/WFX1GVh7xKBHKBHX6">こちら<span class="material-symbols-outlined open_in_new_icon">
 open_in_new
-</span></a>から</b></p>
+</span></a>から</b><span style="color: red;"> 締め切りました</span></p>
       <h3>〈開催概要〉</h3>
       <p>日時：10/17(金) 17:30-19:00<br/>
         場所：大岡山キャンパス Taki Plaza 地下2階

@@ -1,4 +1,5 @@
 <script setup>
+import kotira from '../assets/files/bbs/siengp_bbs_format.pptx?url';
 import framePattern from '../assets/images/bbs_request/frame_pattern.png';
 import slideExample from '../assets/images/bbs_request/slide_example.jpg';
 import BadSlide from '../assets/images/bbs_request/bad_slide.PNG';
@@ -32,7 +33,7 @@ import GoodSlide from '../assets/images/bbs_request/good_slide.PNG';
       <h3 class="title">○ 配信情報の制作について</h3>
       <ul>
         <li>フレームサイズ：W864×H648（ピクセル）
-            <br/>※下記フレームパターンのH1 ※当部門の電子掲示板用フォーマットは<a href="../assets/files/bbs/siengp_bbs_format.pptx">こちら</a>
+            <br/>※下記フレームパターンのH1 ※当部門の電子掲示板用フォーマットは<a :href="kotira">こちら</a>
         </li>
         <li>データの保存形式：JPEG形式（パワーポイント形式ですと当部門にてファイルを開いた際にレイアウトがずれてしまうことがあります。かならずJPEG形式で保存したファイルをご送付ください）</li>
         <li>データは、300KBまでが望ましいです。超えた場合は、配信できないことがあります。</li>
