@@ -39,7 +39,7 @@ const suzukakedaiMonitors = [
       href="https://science-tokyo.app.box.com/folder/286281913755?s=qh7l3avs52e69f4tipnavcmizx1ntbyu"
       class="bbs_request"
       >今週の配信情報 ></a
-    ><br />
+    >　<span style="color: red">現在配信停止中です。</span><br />
     <div class="item">
       <h3 class="title">○ 設置個所と放映時間</h3>
       <h5>大岡山キャンパス</h5>
