@@ -31,11 +31,11 @@ import flapLogo from '../assets/images/flap/logo.jpg';
         <h3 class="title">○ 新着News</h3>
         <p v-for="item in latestNews" :key="item.title">
           <component
-            :is="item.link && !item.isExternal ? 'router-link' : 'a'"
-            :to="item.link && !item.isExternal ? (item.link || '/news') : undefined"
-            :href="item.link && item.isExternal ? item.link : (!item.link ? '/news' : undefined)"
-            :target="item.isExternal ? '_blank' : undefined"
-            :rel="item.isExternal ? 'noopener noreferrer' : undefined"
+            :is="item.link && !item.isExternal && !item.link.endsWith('.pdf') ? 'router-link' : 'a'"
+            :to="item.link && !item.isExternal && !item.link.endsWith('.pdf') ? (item.link || '/news') : undefined"
+            :href="item.link && (item.isExternal || item.link.endsWith('.pdf')) ? item.link : (!item.link ? '/news' : undefined)"
+            :target="item.link && (item.isExternal || item.link.endsWith('.pdf')) ? '_blank' : undefined"
+            :rel="item.link && (item.isExternal || item.link.endsWith('.pdf')) ? 'noopener noreferrer' : undefined"
           >
             ＊ <span v-if="item.category">[{{ item.category }}] </span>
             {{ item.title }}

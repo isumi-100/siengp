@@ -1,8 +1,18 @@
 import opencampus2025pdf from '../assets/files/news/opencampus_2025.pdf';
 import soudankai2025poster from '../assets/files/news/r7-9-peer-soudankai-poster.pdf';
 import soudankai2025shift from '../assets/files/news/r7-9-peer-soudankai-shift.pdf';
+import aki2025soudankai from '../assets/files/news/aki-soudankai-2025.pdf';
 
 export const newsItems = [
+  {
+    date: '2025/10/6',
+    category: 'ピアサポーター',
+    title: '「秋の大学生活なんでも相談会」開催報告',
+    content: 'ピアサポーターが、「秋の大学生活なんでも相談会」を開催しました。',
+    link: aki2025soudankai,
+    linkText: '開催報告を見る >',
+    isExternal: true,
+  },
   {
     date: '2025/10/03',
     category:'VG',
