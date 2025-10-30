@@ -28,18 +28,14 @@ const suzukakedaiMonitors = [
     <router-link to="/bbs/request" class="bbs_request"
       >配信の依頼方法・配信情報の制作について ></router-link
     ><br />
-    <br />
     <p>
-      諸事情により、6/25にて新規配信受付を一時停止させていただきます。再開は9月中旬頃を予定しています。<br />
-      <span style="color: red">
-        *8月21日追記　大変申し訳ありませんが、再開は10月中旬頃へと延期させていただきます。</span
-      >
+      10月29日、新規配信受付を再開いたしました。
     </p>
     <a
       href="https://science-tokyo.app.box.com/folder/286281913755?s=qh7l3avs52e69f4tipnavcmizx1ntbyu"
       class="bbs_request"
       >今週の配信情報 ></a
-    >　<span style="color: red">現在配信停止中です。</span><br />
+    >
     <div class="item">
       <h3 class="title">○ 設置個所と放映時間</h3>
       <h5>大岡山キャンパス</h5>

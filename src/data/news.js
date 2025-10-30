@@ -5,6 +5,15 @@ import aki2025soudankai from '../assets/files/news/aki-soudankai-2025.pdf';
 
 export const newsItems = [
   {
+    date: '2025/10/29',
+    category: '電子掲示板システム',
+    title: '新規配信依頼受付を再開',
+    content: '諸事情により新規配信受付を一時停止しておりましたが、10月29日より受付を再開いたしました。',
+    link: '/bbs/request',
+    linkText: '配信依頼はこちら >',
+    isExternal: false,
+  },
+  {
     date: '2025/10/6',
     category: 'ピアサポーター',
     title: '「秋の大学生活なんでも相談会」開催報告',

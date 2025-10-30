@@ -8,8 +8,8 @@ import GoodSlide from '../assets/images/bbs_request/good_slide.PNG';
 <template>
   <div class="main">
     <h3 style="color: #e97142">配信の依頼方法・配信情報の制作について</h3>
-    <p>諸事情により、6/25にて新規配信受付を一時停止させていただきます。再開は9月中旬頃を予定しています。<br/>
-      <span style="color: red;">*8月21日追記　大変申し訳ありませんが、再開は10月中旬頃へと延期させていただきます。</span>
+    <p>
+      10月29日、新規配信受付を再開いたしました。
     </p>
     <div class="item">
       <h3 class="title">電子掲示板の配信について</h3>
