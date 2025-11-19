@@ -10,11 +10,12 @@ import GoodSlide from '../assets/images/bbs_request/good_slide.PNG';
     <h3 style="color: #e97142">配信の依頼方法・配信情報の制作について</h3>
     <p>
       10月29日、新規配信受付を再開いたしました。
+      <br>ご依頼は、ssc-bbs [at] ssc.isct.ac.jp までお願いします。（メール送信の際には [at] を小文字の@に変更して下さい。）
     </p>
     <div class="item">
       <h3 class="title">電子掲示板の配信について</h3>
       <ul>
-        <li>配信希望の際は、大岡山学生支援センター未来人材育成支援室（学生活動支援）まで配信ファイルをお送りください。<br/>Email : ssc-bbs [at] ssc.isct.ac.jp<br/>
+        <li>配信希望の際は、大岡山学生支援センター未来人材育成支援室（学生活動支援）まで配信ファイルをお送りください。<br/><b>Email : ssc-bbs [at] ssc.isct.ac.jp</b><br/>
           （メール送信の際には [at] を小文字の@に変更して下さい。）
         </li>
         <li>配信依頼受付は、配信を希望する１週間前の月曜〆切とさせていただきます。</li>

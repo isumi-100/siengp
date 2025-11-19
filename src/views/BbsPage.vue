@@ -30,6 +30,7 @@ const suzukakedaiMonitors = [
     ><br />
     <p>
       10月29日、新規配信受付を再開いたしました。
+      <br>ご依頼は、ssc-bbs [at] ssc.isct.ac.jp までお願いします。（メール送信の際には [at] を小文字の@に変更して下さい。）
     </p>
     <a
       href="https://science-tokyo.app.box.com/folder/286281913755?s=qh7l3avs52e69f4tipnavcmizx1ntbyu"
