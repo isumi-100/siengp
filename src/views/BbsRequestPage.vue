@@ -8,9 +8,13 @@ import GoodSlide from '../assets/images/bbs_request/good_slide.PNG';
 <template>
   <div class="main">
     <h3 style="color: #e97142">配信の依頼方法・配信情報の制作について</h3>
-    <p>
-      ※2026年4月14日より、フレームサイズがW1227×H910ピクセルに、データは1MBまでに変更になりました。
-      <br>ご依頼は、ssc-bbs [at] ssc.isct.ac.jp までお願いします。（メール送信の際には [at] を小文字の@に変更して下さい。）
+    <router-link to="/bbs" class="bbs"
+      >設置個所と放映時間 ></router-link
+    >
+    <p class="bbs-top-notice">
+      <br />
+      ※2026年4月14日より、フレームサイズがW1227×H910ピクセルに、データは1MBまでに変更になりました。<br /><br />
+      ご依頼は、ssc-bbs [at] ssc.isct.ac.jp までお願いします。（メール送信の際には [at] を小文字の@に変更して下さい。）
     </p>
     <div class="item">
       <h3 class="title">電子掲示板の配信について</h3>
@@ -33,11 +37,11 @@ import GoodSlide from '../assets/images/bbs_request/good_slide.PNG';
     <div class="item">
       <h3 class="title">○ 配信情報の制作について</h3>
       <ul>
-        <li>フレームサイズ：W1227×H910（ピクセル）
-            <br/>※下記フレームパターンのH1 ※当室の電子掲示板用フォーマットは<a :href="kotira">こちら</a>
+        <li><span class="bbs-top-notice">フレームサイズ：W1227×H910（ピクセル）
+            ※下記フレームパターンのH1 ※当室の電子掲示板用フォーマットは<a :href="kotira">こちら</a></span>
         </li>
         <li>データの保存形式：JPEG形式（パワーポイント形式ですと当室にてファイルを開いた際にレイアウトがずれてしまうことがあります。かならずJPEG形式で保存したファイルをご送付ください）</li>
-        <li>データは、1MBまでが望ましいです。超えた場合は、配信できないことがあります。</li>
+        <li><span class="bbs-top-notice">データは、1MBまでが望ましいです。超えた場合は、配信できないことがあります。</span></li>
         <li>日本語表記版と英語表記版など、内容が同一の配信情報は一枚にまとめてご依頼ください。</li>
       </ul>
     </div>
@@ -78,6 +82,23 @@ import GoodSlide from '../assets/images/bbs_request/good_slide.PNG';
 </template>
 
 <style scoped>
+.bbs-top-notice {
+  font-weight: 700;
+}
+.bbs {
+  display: inline-block;
+  margin-top: 30px;
+  color: #fff;
+  padding: 10px;
+  background-color: #e97142;
+  border-radius: 10px;
+  border-color: none;
+}
+.bbs:hover {
+  color: #e97142;
+  border: 0.5px solid #e97142;
+  background-color: #fff;
+}
 .item {
   margin-top: 2rem;
 }
