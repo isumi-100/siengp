@@ -5,6 +5,45 @@ import aki2025soudankai from '../assets/files/news/aki-soudankai-2025.pdf';
 
 export const newsItems = [
   {
+    date: '2026/4/6',
+    category: '学勢調査',
+    title: '学勢調査2026 大学の対応を公開',
+    content: '学勢調査2026 大学の対応をHPに公開しました。',
+    link: 'https://www.siengp.titech.ac.jp/gakuseichousa/',
+    linkText: '詳しく見る >',
+    isExternal: true,
+  },
+  {
+    date: '2026/3/27-4/16',
+    category: 'ピアサポーター',
+    title: '「春の新入生相談会」開催のお知らせ',
+    content: 'ピアサポーター（先輩学生）による「春の新入生相談会」を実施します。<br/><br/>開催日時： 4月2日（木） 14:00-16:30<br/>4月5日（日）、6日（月） 11:00-17:00<br/> 4月8日（水）、9日（木）、10日（金）、13日（月）、15日（水）、16日（木） 12:45-16:15<br/><br/>開催場所： Taki Plaza 地下1階',
+  },
+  {
+    date: '2026/3/8',
+    category: 'ピアサポーター',
+    title: '彩燕祭にて新入生相談会開催',
+    content: '彩燕祭にて新入生相談会を開催しました。',
+  },
+  {
+    date: '2026/3/5-6',
+    category: 'VG',
+    title: '福島スタディツアー開催',
+    content: '「震災に学び、未来を考える 福島スタディツアー」を開催しました。',
+    link: 'https://www.isct.ac.jp/ja/news/eltzd7xkj5hm',
+    linkText: '詳しく見る >',
+    isExternal: true,
+  },
+  {
+    date: '2026/3/2',
+    category: '',
+    title: '第19回学生応援フォーラム開催',
+    content: '第19回学生応援フォーラムを開催しました。',
+    link: 'https://www.isct.ac.jp/ja/news/cb6pftt14has',
+    linkText: '詳しく見る >',
+    isExternal: true,
+  },
+  {
     date: '2025/10/29',
     category: '電子掲示板システム',
     title: '新規配信依頼受付を再開',

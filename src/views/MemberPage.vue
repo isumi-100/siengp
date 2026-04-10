@@ -5,7 +5,7 @@
         <h3 class="title">学生支援センター自律支援実施委員会<br />委員名簿</h3>
       </div>
     </div>
-    <h3 class="year-title">2025年度</h3>
+    <h3 class="year-title">2026年度</h3>
 
     <div class="member-table">
       <h3 class="sub_title">担当教員</h3>
@@ -80,28 +80,20 @@
             <td>学生支援課長</td>
           </tr>
           <tr>
-            <td>岡村　純</td>
+            <td>加藤　美和子</td>
             <td>学生支援課支援企画グループ長</td>
           </tr>
           <tr>
             <td>秋葉　俊平</td>
-            <td>学生支援課支援企画グループ専門職（11月1日から）</td>
-          </tr>
-          <tr>
-            <td>田中　勝利</td>
-            <td>学生支援課支援企画グループ主任</td>
+            <td>学生支援課支援企画グループ専門職</td>
           </tr>
           <tr>
             <td>奈須野　美穂</td>
             <td>学生支援センター事務支援員</td>
           </tr>
           <tr>
-            <td>下段　幸子</td>
-            <td>学生支援センター事務支援員 (6月末まで)</td>
-          </tr>
-          <tr>
             <td>安藤　教子</td>
-            <td>学生支援センター事務支援員 (10月1日から)</td>
+            <td>学生支援センター事務支援員</td>
           </tr>
         </tbody>
       </table>
