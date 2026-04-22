@@ -33,6 +33,9 @@ export const newsItems = [
     category: 'ピアサポーター',
     title: '彩燕祭にて新入生相談会開催',
     content: '彩燕祭にて新入生相談会を開催しました。',
+    link: 'https://www.titech.ac.jp/student-support/pdf/b7f730d311673ed40210e976f0df18b4-1.pdf',
+    linkText: '開催報告を見る >',
+    isExternal: true,
   },
   {
     date: '2026/3/5-6',
