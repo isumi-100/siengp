@@ -5,6 +5,15 @@ import aki2025soudankai from '../assets/files/news/aki-soudankai-2025.pdf';
 
 export const newsItems = [
   {
+    date: '2026-05-23',
+    category: '',
+    title: '新着情報テスト',
+    content: '新着情報のテスト',
+    link: '/news/20260523',
+    linkText: '詳細を見る',
+    isExternal: false,
+  },
+  {
     date: '2026/4/20',
     category: 'ピアサポーター',
     title: '令和8年度ピアサポーター追加募集(二次募集)のお知らせ',
