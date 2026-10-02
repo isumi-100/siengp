@@ -3,17 +3,19 @@ import ActivityPageLayout from '../components/ActivityPageLayout.vue';
 import SlideShow from '../components/SlideShow.vue';
 
 import logo from '../assets/images/studentsurvey/logo.png';
-import slide1 from '../assets/images/studentsurvey/houtei.jpg';
-import slide2 from '../assets/images/studentsurvey/houtei-chu.jpg';
-import slide3 from '../assets/images/studentsurvey/teigen-sho.png';
-import slide4 from '../assets/images/studentsurvey/meeting.png';
+import slide1 from '../assets/images/studentsurvey/pr_2026.png';
+import slide2 from '../assets/images/studentsurvey/houtei.jpg';
+import slide3 from '../assets/images/studentsurvey/houtei-chu.jpg';
+import slide4 from '../assets/images/studentsurvey/teigen-sho.png';
+import slide5 from '../assets/images/studentsurvey/meeting.png';
 
 
 const slides = [
-  { imgSrc: slide1, altText: '提言書の内容についての意見交換', caption: '提言書の内容についての意見交換' },
-  { imgSrc: slide2, altText: '学勢調査2024 提言書奉呈式', caption: '学勢調査2024 提言書奉呈式' },
-  { imgSrc: slide3, altText: '学勢調査2024提言書表紙', caption: '学勢調査2024提言書表紙' },
-  { imgSrc: slide4, altText: 'ミーティングの様子', caption: 'ミーティングの様子' },
+  { imgSrc: slide1, altText: '学勢調査2026 7/7まで！', caption: '学勢調査2026 7/7まで！' },
+  { imgSrc: slide2, altText: '提言書の内容についての意見交換', caption: '提言書の内容についての意見交換' },
+  { imgSrc: slide3, altText: '学勢調査2024 提言書奉呈式', caption: '学勢調査2024 提言書奉呈式' },
+  { imgSrc: slide4, altText: '学勢調査2024提言書表紙', caption: '学勢調査2024提言書表紙' },
+  { imgSrc: slide5, altText: 'ミーティングの様子', caption: 'ミーティングの様子' },
 ];
 
 
@@ -31,8 +33,14 @@ const pageData = {
     </template>
     <template #details>
       <p>
+        <b>7/7まで、学勢調査2026が実施中です！</b><br />
+        教務webシステムのアンケート欄から回答できるので、ご協力をお願いします。<br />
+        <i>願わなければ、叶いません</i><br />
+        みなさんの意見をぜひお寄せください。お待ちしています！
+      </p>
+      <p>
         学勢調査2024提言書は<a
-          href="http://www.siengp.titech.ac.jp/gakuseichousa/2024/2024_gakusei_teigensho.pdf"
+          href="https://www.siengp.titech.ac.jp/gakuseichousa/2024/teigensho/index.html"
           >こちら</a
         >からご覧いただけます。<br />
         2024年3月28日に、奉呈式を行い、学勢調査2024学生スタッフの代表7人が、大岡山キャンパスにて大竹理事長、田中学長、
@@ -52,7 +60,7 @@ const pageData = {
           href="https://docs.google.com/forms/d/e/1FAIpQLSd89pmP_DgFuZaGS4RXO5h2BPOVJ4cpQDsYeHnI4RwB9pKBRQ/viewform"
           >応募フォーム</a
         >か、下記のメールからご応募ください。<br />
-        申込書(<a href="http://www.siengp.titech.ac.jp/gakuseichousa/assets/file/application2025.docx">Word版</a>、<a href="http://www.siengp.titech.ac.jp/gakuseichousa/assets/file/application2025.pdf"
+        申込書(<a href="https://www.siengp.titech.ac.jp/gakuseichousa/assets/file/application2025.docx">Word版</a>、<a href="https://www.siengp.titech.ac.jp/gakuseichousa/assets/file/application2025.pdf"
           >PDF版</a
         >)<br />
         Email: studentsurvey＠ssc.isct.ac.jp<br />

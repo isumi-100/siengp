@@ -10,6 +10,10 @@ import slide4 from '../assets/images/peer/training.png';
 import slide5 from '../assets/images/peer/fig4.jpg';
 import slide6 from '../assets/images/peer/fig5.jpg';
 import slide7 from '../assets/images/peer/fig6.jpg';
+import jikanwari_1 from '../assets/files/peer/jikanwari_1.pdf';
+import jikanwari_2 from '../assets/files/peer/jikanwari_2.pdf';
+import jikanwari_3 from '../assets/files/peer/jikanwari_3.pdf';
+import oyakudachi_2026 from '../assets/files/peer/oyakudachi_2026.pdf';
 
 const slides = [
   { imgSrc: slide1, altText: '春の新入生相談会の様子', caption: '春の新入生相談会の様子' },
@@ -44,8 +48,7 @@ open_in_new
           href="https://www.titech.ac.jp/student-support/students/extracurricular/jobs-campus/peersupporter"
           >ピアサポーター募集ページ（大学HP）<span class="material-symbols-outlined open_in_new_icon">
 open_in_new
-</span></a
-        >をご確認ください。
+</span></a>をご確認ください。
       </p>
       <h3>◇大学生活なんでも相談随時受付中</h3>
       <p>
@@ -77,6 +80,59 @@ open_in_new
         <li>
           <a href="https://www.tmd.ac.jp/peer/"
             >東京科学大学医歯学系ピアサポーター</a
+          >
+        </li>
+      </ul>
+      <h3>◇情報</h3>
+      <ul>
+      
+      <li>
+        先輩の学士1年時の時間割例
+        <ul>
+        <li><a :href="jikanwari_1" target="_blank">
+          理学院から数学系
+        </a></li>
+        <li><a :href="jikanwari_2" target="_blank">
+          工学院から経営工学系
+        </a></li>
+        <li><a :href="jikanwari_3" target="_blank">
+          物質理工学院から材料系
+        </a></li>
+        </ul>
+      </li>
+      
+        <li>
+          <a
+            :href="oyakudachi_2026"  target="_blank"
+            >【2026年度配布】新入生お役立ち情報誌</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://www.titech.ac.jp/student/pdf/life-undergraduatetimetables-2026s-04b.pdf"
+            >2026年4月入学者用100番台科目の配置一覧</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="http://www.wn.ila.titech.ac.jp/"
+            >ウェルネス科目ホームページ</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://www.noc.cii.isct.ac.jp/wireless/service/"
+            >学内wifiについて</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://www.ssc.titech.ac.jp/amap/"
+            >アクセシビリティ案内サイト</a
           >
         </li>
       </ul>

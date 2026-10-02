@@ -12,7 +12,7 @@ const slides = [
 
 const pageData = {
   title: 'みらい創造チャレンジ Kitmeeプロジェクト',
-  description: '代表　高橋 遼 (工学院 機械系)',
+  description: '代表　渡邊 舞衣 (環境・社会理工学院 土木・環境工学系)',
 };
 </script>
 
